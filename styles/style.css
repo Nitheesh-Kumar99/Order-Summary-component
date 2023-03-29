@@ -91,7 +91,7 @@ p {
 .link {
   color: var(--clr-bright-blue);
   margin-right: 20px;
-  font-weight: 900px;
+  font-weight: 900;
 }
 .payment-button {
   padding-top: 10px;
