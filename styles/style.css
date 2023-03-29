@@ -5,15 +5,113 @@
   outline: none;
 }
 html {
-  font-size: 15px;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Kalam", cursive;
-  background-color: white;
+  font-family: "Red Hat Display", sans-serif;
 }
 img {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+:root {
+  --clr-Pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+  --clr-very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+}
+body {
+  background-color: var(--clr-Pale-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 600px;
+  border-radius: 1rem;
+  text-align: center;
+  gap: 1rem;
+}
+.top-img {
+  margin-top: -154px;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+h1 {
+  color: var(--clr-dark-blue);
+  font-size: 21px;
+  font-weight: 900;
+}
+p {
+  margin: 0 auto;
+  line-height: 22px;
+  font-size: 15px;
+  color: var(--clr-desaturated-blue);
+  width: 91%;
+}
+.plan-container {
+  border-radius: 8px;
+  background-color: var(--clr-very-pale-blue);
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  width: 80%;
+  height: 85px;
+}
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.music-img {
+  height: 40px;
+  margin-left: 10px;
+}
+.annual-plan {
+  color: var(--clr-dark-blue);
+  font-weight: 900;
+  margin-left: -50px;
+}
+.amount {
+  color: var(--clr-desaturated-blue);
+  margin-left: -50px;
+}
+.link {
+  color: var(--clr-bright-blue);
+  margin-right: 20px;
+  font-weight: 900px;
+}
+.payment-button {
+  padding-top: 10px;
+}
+.payment-btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  color: var(--clr-very-pale-blue);
+  background-color: var(--clr-bright-blue);
+  border-color: va;
+  font-weight: 700;
+  border: 2px solid var(--clr-bright-blue);
+  cursor: pointer;
+  font-size: 15px;
+}
+.cancel {
+  color: var(--clr-desaturated-blue);
+  font-weight: 700;
+  padding-top: 10px;
+  margin-bottom: -100px;
+  font-size: 15px;
 }
