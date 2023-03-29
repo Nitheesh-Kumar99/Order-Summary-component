@@ -114,4 +114,14 @@ p {
   padding-top: 10px;
   margin-bottom: -100px;
   font-size: 15px;
+  cursor: pointer;
+}
+.cancel:hover {
+  color: var(--clr-dark-blue);
+}
+.payment-button:hover {
+  opacity: 80%;
+}
+.link:hover {
+  opacity: 80%;
 }
